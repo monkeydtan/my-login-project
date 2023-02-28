@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #dfe9f5;
+}
+
+.box{
+    width: 350px;
+    background-color: #fff;
+    padding: 2rem 1rem;
+    margin: 200px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+
+.forget-pw-btn a{
+    text-decoration: none;
+    color: rgb(190, 36, 36);
+    font-size: 12px;
+}
+#fg-btn{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.forget-pw-btn a:hover{
+    color: rgb(190, 36, 36);
+    text-decoration: underline;
+
+}
+
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    background: #2C9AD0;
+    color: #fff;
+    margin-bottom: 1.3rem;
+}
+
+button:hover{
+    background: #2C9AD0;
+    opacity: 0.9;
+}
+
+input:focus{
+    border: 1px solid #2C9AD0;
+}
+
+.singup{
+    font-size: 15px;
+}
+
+.singup a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #2C9AD0;
+}
+
+.singup a:hover{
+    text-decoration: underline;
+}
+
+.img-profile img{
+    width:150px;
+    margin-bottom: 10px;
+}
